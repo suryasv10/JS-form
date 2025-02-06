@@ -1,0 +1,56 @@
+body {
+    background-color: #000; 
+    color: #FFF; 
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h1 {
+    color: #FFF; 
+    font-size: 40px;
+    font-weight: bold;
+}
+
+label {
+    color: #DDD; 
+    font-size: 21px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"] {
+    background-color: #222; 
+    color: #FFF; 
+    border: 1px solid #555; 
+    padding: 5px;
+    width: 50%;
+}
+
+input[type="radio"] {
+    accent-color: #FFF; 
+}
+
+button {
+    background-color: #444; 
+    color: #FFF; 
+    border: 1px solid #777; 
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #666; 
+}
+
+
+#downloadSection a button {
+    background-color: #222; 
+    border: 1px solid #FFF;
+}
+
+hr {
+    border: 1px solid #888; 
+}

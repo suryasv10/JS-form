@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <h1>User Details:</h1>
+    <form id="userForm">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" placeholder="John" required><br><br>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" placeholder="Wick" required><br><br>
+
+        <label for="date">Birthday date:</label>
+        <input type="date" id="date" required><br><br>
+        
+        <label for="address">Address:</label>
+        <input id="address" type="text" placeholder="Street, City, ZIP" required><br><br>
+
+        <label for="phone">Phone no:</label>
+        <input type="tel" id="phone" placeholder="93633 57362" required><br><br>
+
+        <label for="mail">Mail id:</label>
+        <input type="email" id="mail" placeholder="johnwick@gmail.com" required><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male" required> <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female" required> <label for="female">Female</label>
+        <input type="radio" id="notsay" name="gender" value="Rather not say" required> <label for="notsay">Rather not say</label><br><br>
+
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+
+    <br>
+    <div id="downloadSection"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
